@@ -2,7 +2,7 @@ import React from 'react'
 import { MdOutlinePlayArrow } from 'react-icons/md'
 import pic from "../img/dp.jpg"
 
-const webTech = ['JavaScript (ES6+)', 'TypeScript', 'React.js', 'Next.js', 'Node.js', 'Express.js']
+const webTech = ['JavaScript (ES6+)', 'TypeScript', 'React.js', 'WordPress', 'Node.js', 'Express.js']
 
 function About() {
   return (
