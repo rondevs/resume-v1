@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  /* overflow-x: hidden; */
+}
+
+* ::before,
+::after {
+  box-sizing: inherit;
+}
+body {
+  background-color: #1b1b1a;
+}
+/* main.fillHeight {
+  padding: 0px 150px;
+  padding-top: 0px;
+  padding-right: 150px;
+  padding-bottom: 0px;
+  padding-left: 150px;
+} */
+html {
+  scroll-behavior: smooth;
+  /* background-color: #2e2e2e; */
+}
+main {
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+  width: 100%;
+  max-width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.title::after {
+  content: "";
+  height: 1px;
+  width: 20rem;
+  background: rgb(202, 212, 224, 0.5);
+  display: block;
+}
+
+.portimg {
+  width: 200px;
+  background: red;
+  transition: width 2s, height 4s;
+}
+
+.portimg:hover {
+  width: 350px;
+}
