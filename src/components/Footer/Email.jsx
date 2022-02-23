@@ -4,11 +4,11 @@ import FooterStand from './FooterStand'
 function Email() {
 
   return (
-    <div className='fixed -right-[4.5rem] items-end rotate-90  bottom-[9.7rem] max-w-5'>
+    <div className='fixed -right-[4.9rem]  rotate-90  bottom-[10.1rem]'>
     
-    <div className='flex items-center space-x-2 '>
+    <div className='flex items-center space-x-2 text-slate-100'>
       
-      <a href={emailURL}  className=" text-[14px] text-slate-300">{email}</a>
+      <a href={emailURL}  className=" text-[15px] ">{email}</a>
      
       
       
