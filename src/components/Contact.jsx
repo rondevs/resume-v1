@@ -6,7 +6,7 @@ import { codePenURL, emailURL, gitHubURL, instaURL, linkedInURL, twitterURL } fr
 
 function Contact() {
   return (
-    <div id='contact' className='flex flex-col  bg-transparent  py-[100px]  lg:mx-[60px] xl:mx-[200px] space-y-3 md:space-x-3 my-10'>
+    <div id='contact' className='flex flex-col  bg-transparent  py-[100px]  lg:mx-[60px] xl:mx-[200px] space-y-[4rem] md:space-x-3 my-10'>
         
       
       <h2 className='flex items-center gap-3 text-2xl tracking-wider text-white text-bold title'>
