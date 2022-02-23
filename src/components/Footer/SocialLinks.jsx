@@ -1,6 +1,6 @@
 import React from 'react'
 import { FiCodepen, FiGithub, FiInstagram, FiLinkedin, FiTwitter } from 'react-icons/fi'
-import { codePenURL, gitHubURL, instaURl, linkedInURL, twitterURl } from '../../variables'
+import { codePenURL, gitHubURL, instaURL, linkedInURL, twitterURL } from '../../variables'
 import FooterStand from './FooterStand'
 
 function SocialLinks() {
@@ -12,7 +12,7 @@ function SocialLinks() {
             <FooterStand />
             
 
-            <a href={instaURl} className="rotate-90 " target={'_blank'} rel="noreferrer">
+            <a href={instaURL} className="rotate-90 " target={'_blank'} rel="noreferrer">
                 <FiInstagram className='w-5 h-5'/>
             </a>
             
@@ -23,7 +23,7 @@ function SocialLinks() {
                 <FiCodepen className='w-5 h-5'/>
             </a>
         
-            <a href={twitterURl} className="rotate-90 " target={'_blank'} rel="noreferrer">
+            <a href={twitterURL} className="rotate-90 " target={'_blank'} rel="noreferrer">
                 <FiTwitter className='w-5 h-5 '/>
             </a>
             <a href={gitHubURL}  className="rotate-90 " target={'_blank'} rel="noreferrer">

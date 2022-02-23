@@ -1,6 +1,7 @@
 import React from 'react'
+import { GoRepo } from 'react-icons/go'
 import { HiOutlineX } from 'react-icons/hi'
-import { resumeURL } from '../variables'
+import { resumeURL, siteRepo } from '../variables'
 import { handleSideMenu } from './Navbar'
 
 
@@ -18,7 +19,10 @@ function SideMenu() {
             {item.name}
             </a>
         })}
-
+      <a href={siteRepo} className='flex items-center space-x-1 text-slate-300 hover:text-teal-300'>
+              <GoRepo/>
+              <span>repo</span>
+          </a>
       <a href={resumeURL} className='px-3 py-2 text-teal-300 border-2 border-teal-300 rounded md:hidden hover:bg-teal-300 hover:bg-opacity-10 text-bold text-md' target={'_blank'} rel="noreferrer"  >
         Resume
       </a>
